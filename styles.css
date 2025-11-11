@@ -1,0 +1,166 @@
+.top-header {
+  position: flex;
+  background-color: #f5d16c;
+  width: 100%;
+  height: 3.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem;
+}
+.Menu-Horizontal {
+  list-style: none;
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 75rem;
+}
+.Menu-Horizontal li {
+  display: block;
+  position: relative;
+  padding: 0.9rem 1.25rem;
+  color: #523b39;
+}
+.Menu-Horizontal li:hover {
+  color: #bd1b06;
+}
+.Menu-Vertical {
+  padding: 0;
+  list-style: none;
+  top: 100%;
+  position: absolute;
+  display: none;
+  width: 12.5rem;
+  background-color: #ba9c5f;
+}
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+
+.Menu-Vertical li:hover {
+  background-color: white;
+}
+.Menu-Vertical li {
+  display: block;
+  color: #cfb86d;
+  padding: 0.9rem 0.9rem 0.9rem 1.25rem;
+}
+
+/*seccion-beneficios
+
+.seccion-beneficios {
+  padding: 3.12rem 1.25rem;
+  background-color: white;
+}
+
+.beneficios-box {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  color: #333;
+  padding: 0px;
+  border-radius: 0.63rem;
+}
+
+.beneficios-box li {
+  display: block;
+  position: relative;
+  padding: 0.9rem 1.25rem;
+  color: #523b39;
+}
+.beneficios-box li:hover {
+  color: #bd1b06;
+}
+
+.seccion-beneficios:hover .beneficios-box {
+  display: block;
+}
+
+.cont-benef-texto h2 {
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 0.9rem;
+}
+
+.cont-benef-texto p {
+  color: black;
+  line-height: 1.6;
+}
+
+/*Seccion formulario*/
+.seccion-formulario {
+  padding: 2.5rem 1.25rem;
+  background-color: white;
+  padding: 2.5rem;
+  border: 0.187rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.div-cont-formulario {
+  background-color: white;
+  padding: 1.875rem;
+  border: 0.125rem solid #523b39;
+  border-radius: 0.625rem;
+  width: 100%;
+  max-width: ;
+}
+
+.campo {
+  border: 1.063rem;
+  padding: 0.938rem;
+  margin-bottom: 0.938rem;
+  border-radius: 0.5rem;
+  background-color: #ba9c5f;
+}
+
+.formulario label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #523b39;
+}
+/*inputs y select*/
+input[type="text"],
+select {
+  width: 100%;
+  padding: 0.625rem;
+  border: 0.063rem solid #523b39;
+  border-radius: 0.313rem;
+}
+
+.lista-checkbox,
+.lista-radio {
+  list-style: none;
+  padding: 0.625rem;
+  marging: 0;
+  border: 0.063rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.lista-checkbox li,
+.lista-radio li {
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  background-color: orange;
+  color: #523b39;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.313rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #e69500;
+  color: white;
+}
